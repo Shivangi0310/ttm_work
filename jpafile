@@ -1,0 +1,21 @@
+ public void findFirstnameAndLAstnameByAge() {
+        System.out.println("find firstname, lastname of person whose age=25 >>>>>>> ");
+        List<Object[]>  personFirstAndLastName = personRepository.findFnameAndLname(25);
+        System.out.println(personFirstAndLastName);
+
+    }
+
+service
+==========================
+
+
+
+
+repo>>>
+@Query("select firstname, lastname from Person where age=:age")
+    List<Object[]> findFnameAndLname(@Param("age") Integer age);
+
+
+============================
+
+ service.findFirstnameAndLAstnameByAge();

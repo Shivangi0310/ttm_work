@@ -1,0 +1,30 @@
+
+public class SingletonClass {
+
+    private static volatile SingletonClass s;
+    private static Object mutex = new Object();
+
+    private SingletonClass() {
+    }
+
+    public static SingletonClass getInstance() {
+        SingletonClass instance =s;
+        if (instance == null) {
+            synchronized (mutex) {
+                instance =s;
+                if (instance == null)
+                   s = instance = new SingletonClass();
+            }
+        }
+        return instance;
+    }
+
+    public static void main(String[] args) {
+        SingletonClass s=SingletonClass.getInstance();
+        System.out.println(s);
+        SingletonClass s1=SingletonClass.getInstance();
+        System.out.println(s1);
+
+    }
+
+}

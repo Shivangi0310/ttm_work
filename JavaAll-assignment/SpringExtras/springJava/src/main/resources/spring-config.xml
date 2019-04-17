@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--Setter initialization-->
+    <bean id="triangle" class="Triangle">
+        <property name="side" value="10"/>
+        <property name="altitude" value="8"/>
+    </bean>
+    <bean id="triangle1" class="Triangle">
+        <property name="side" value="10"/>
+        <property name="altitude" value="8"/>
+    </bean>
+    <!--Constructor initialization-->
+    <bean id="triangleConstructor" class="Triangle">
+        <constructor-arg  name="side" value="10"/>
+        <constructor-arg name="altitude" value="12"/>
+    </bean>
+    <bean id="triangleConstructor1" class="Triangle">
+        <!--<constructor-arg  name="side" value="10"/>-->
+        <!--<constructor-arg name="altitude" value="12"/>-->
+    </bean>
+
+
+
+</beans>

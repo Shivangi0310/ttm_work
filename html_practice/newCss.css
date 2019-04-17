@@ -1,0 +1,159 @@
+
+body{
+	
+	background-color:#473F3F;
+}
+.div1{
+	width: 1200px;
+margin: 0 auto;
+}
+
+.para1{
+	padding-left: 50px;
+	
+	color: #B7B6B6
+}
+
+.topnav{
+	width: 1100px;
+	margin: 0 auto;
+	background-color: #333;
+	overflow: hidden;
+}
+.topnav a{
+
+	color: #FFFFFF;
+	float: left;
+	text-align: center;
+	padding: 14px 16px;
+	font-size: 13px;
+}
+.image{
+	background-color:#FFFFFF;
+	height: 1200px;
+	margin-top: 30px;
+	color: #FFFFFF;
+}
+img{
+	padding-top:30px;
+	padding-left: 120px;
+	margin :0 auto;
+	width: 960px;
+	height: 360px;
+}
+h2{
+	text-align: center;
+	color: #FFFFFF;
+	padding: 150px;
+}
+.paragraph{
+	background-color: #E9E3E7;
+	top: 200px;
+	padding-top:5px;
+	padding-bottom: 5px;
+	border-top: 20px;
+	border-style: solid;
+	margin :0 auto;
+	width: 960px;
+	padding-left: 2px;
+	padding-right: 2px;
+	
+}
+.para2{
+	color: #797373;
+}
+.Line{
+	background-color: #FFFFFF;
+	top: 200px;
+	padding-top:5px;
+	padding-bottom: 5px;
+	border-top: 20px;
+	border-style: solid;
+	margin :0 auto;
+	width: 960px;
+	padding-left: 2px;
+	padding-right: 2px;
+
+}
+.para3{
+	color: #797373;
+}
+hr{
+	color: #FFFFFF;
+	margin :0 auto;
+	width: 960px;
+}
+
+#fig1{
+	margin-top:20px;
+	margin-left: 120px;
+	border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+	max-width: 215px;
+	max-height: 315px;
+}
+#fig2{
+	margin-top:20px;
+	margin-left: 17px;
+	border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+	max-width: 215px;
+	max-height: 315px;
+	float: left;
+}
+
+#fig3{
+	margin-top:20px;
+	margin-left: 120px;
+	border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+	max-width: 215px;
+	max-height: 315px;
+	float: left;
+}
+#fig4{
+	margin-top:20px;
+	margin-left: 17px;
+	border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+	max-width: 215px;
+	max-height: 315px;
+	float: left;
+}
+#img2{
+	max-height: 315px;
+	max-width: 215px;
+	float: left;
+}
+#img3{
+	max-height: 315px;
+	max-width: 215px;
+	float: left;
+	padding: 0;
+    margin: 0;
+}
+#img4{
+	max-height: 315px;
+	max-width: 215px;
+	float: left;
+}
+#img5{
+	max-height: 315px;
+	max-width: 215px;
+	float: left;
+}
+figcaption{
+	 background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+}

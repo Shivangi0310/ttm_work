@@ -1,0 +1,4 @@
+ 
+task abcGradle << {
+    println "Welcome to ABCgradle world!!"
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Onchange event</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready( function(){
+		$("#os").on("change", function() {
+			var selected_value = $("#os").val();
+			$("div").append(selected_value);
+		});
+  		});
+	</script>
+
+</head>
+<body>
+	<select id="os">
+		<option></option>
+		<option>Windows XP</option>
+		<option>Mac</option>
+	    <option>Linux</option>
+
+	</select>
+	<div>
+	</div>
+</body>
+</html>
